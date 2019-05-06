@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "name": "monorepo",
+  "version": "1.0.0",
+  "description": "Exercise on monorepo with multiple packages",
+  "main": "index.js",
+  "author": "Ezekiel Mangalu <emangalu@gmail.com>",
+  "license": "MIT",
+  "workspaces": [
+    "src/header",
+    "src/card"
+  ]
+}
