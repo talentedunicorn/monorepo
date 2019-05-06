@@ -3,9 +3,9 @@
 ### Dependencies
 - Must be a private npm package
 
-### Preview
-Run `npm run preview` which will serve a dev server on `localhost:5000`
-PS: Make sure you have built the components if you haven't
+### Storybook
+Run `npm run storybook` which will serve a dev server on `localhost:6006`
+PS: If you run into errors make sure you have built the components if you haven't
 
 
 ## Workspaces
