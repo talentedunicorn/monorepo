@@ -3,6 +3,10 @@
 ### Dependencies
 - Must be a private npm package
 
+### Preview
+Run `npm run preview` which will serve a dev server on `localhost:5000`
+PS: Make sure you have built the components if you haven't
+
 
 ## Workspaces
 

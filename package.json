@@ -9,5 +9,8 @@
   "workspaces": [
     "src/header",
     "src/card"
-  ]
+  ],
+  "scripts": {
+    "preview": "npx serve src"
+  }
 }
