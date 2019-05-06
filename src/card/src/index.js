@@ -1,12 +1,20 @@
-import React from "react"
+import React, {useState} from "react"
 import ReactDOM from "react-dom"
 import PropTypes from "prop-types"
 
-const Card = ({title, content}) => 
+const Card = ({title, content}) => { 
+  const [newTitle, setTitle] = useState('') 
+
+  return (
   <article>
-    <h2>{ title }</h2>
+    { newTitle ? (<h2>{ newTitle }</h2>) : (<h2>{ title }</h2>)} 
     <p>{ content }</p>
-  </article>
+    <label>
+      <span>Change card title</span>
+      <input value={newTitle} onChange={e => setTitle(e.target.value)} />
+    </label>
+  </article>)
+}
 
 Card.propTypes = {
   title: PropTypes.string.isRequired,
