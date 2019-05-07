@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { storiesOf } from '@storybook/react';
-import Header from '../src/header/src/index.js';
+import Header from '../src/shared/src/header.js';
 
 storiesOf('Header')
   .add('without subtitle', () => <Header title="Header title" />)

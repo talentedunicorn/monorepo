@@ -1,7 +1,6 @@
 .Card {
   --space: 1.25rem;
   --gray: hsl(0, 0%, 82%);
-  font-family: sans-serif;
   padding: var(--space);
   border: 1px solid var(--gray);
 }

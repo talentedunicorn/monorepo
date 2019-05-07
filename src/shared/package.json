@@ -1,11 +1,11 @@
 {
-  "name": "card",
+  "name": "shared",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
-    "dev": "webpack --watch src --out-dir dist --mode development"
+    "dev": "webpack -w --config webpack.config.js --mode development"
   },
   "author": "",
   "license": "ISC",

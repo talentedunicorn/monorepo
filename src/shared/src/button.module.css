@@ -1,0 +1,17 @@
+.Button {
+  --bg: var(--brand-color);
+  --color: var(--white);
+  padding: var(--space);
+  background: var(--bg);
+  color: var(--color);
+  font-size: 1em;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
+  font-weight: bold;
+  border-radius: var(--button-radius);
+}
+
+.Button:hover {
+  --bg: hsl(337, 75%, 40%);
+}

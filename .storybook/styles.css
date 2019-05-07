@@ -1,0 +1,16 @@
+/* Default styles for our project */
+/* Mostly variables used inside the styles */
+
+:root {
+  --space: 1.25rem;
+  --button-radius: 0.25em;
+  --black: hsl(0, 0%, 11%);
+  --white: hsl(0, 0%, 97%);
+  --gray: hsl(0, 0%, 82%);
+  --brand-color: hsl(337, 75%, 50%);
+  --font: sans-serif;
+}
+
+body {
+  font-family: var(--font);
+}

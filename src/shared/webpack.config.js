@@ -1,9 +1,15 @@
 const path = require("path")
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const registeredComponents = require('./registeredComponents')
 
 const isDevelopment = process.env.NODE_ENV === "development"
 
 module.exports = {
+  entry: registeredComponents,
+  output: {
+    filename: '[name].js',
+    path: path.resolve(__dirname, 'dist')
+  },
   plugins: [
     new MiniCssExtractPlugin({
       filename: isDevelopment ? '[name].css': '[name].[hash].css',

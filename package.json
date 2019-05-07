@@ -7,8 +7,8 @@
   "author": "Ezekiel Mangalu <emangalu@gmail.com>",
   "license": "MIT",
   "workspaces": [
-    "src/header",
-    "src/card"
+    "src/shared",
+    "src/favebiz"
   ],
   "scripts": {
     "storybook": "start-storybook -p 6006",
